@@ -1,30 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;1,100;1,200&family=Open+Sans:ital,wght@1,300&family=Raleway:wght@100&display=swap');
 
 /* reset */
-body{
-    font: 0.9rem 'Raleway', sans-serif;
-    margin: 0;
-    line-height: 1.6;
-    background-color: #2b2a33;
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
-h1,h2,h3,h4,p, figure,ol,ul{
+body{
+    font: 1.6rem 'Montserrat', sans-serif;
     margin: 0;
-    padding: 0;
-    list-style-type: none;
-    font-weight: 300;
+    line-height: 1.5;
+    background-color: #2b2a33;
 }
 *{
     box-sizing: border-box;
 }
-a{
-    text-decoration: none ;
-    color: #222;
+h1,h2,h3,h4,h5,h6,p,figure,ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
-button, input, select, option{
-    background: none;
-    border: 0;
-    cursor: pointer;
-    background-color:transparent;
+h1,h2,h3,h4,h5,h6{
+    font-weight: 200;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #222;
 }
 
 
@@ -45,10 +52,12 @@ header h1{
     align-items: center;
     width: 100%;    /* alignement */
     gap: 0.8rem;
+    
 }
 .questions{
     width: 100%;
-    max-width: 50rem;
+    max-width: 60rem;
+    
 }
 
 
@@ -64,8 +73,8 @@ header h1{
 
 }
 .visible-pannel h2{
-    margin-left: 1rem;
-    font-size: 1.7rem;
+    margin-left: 2rem;
+    font-size: 2.2rem;
 }
 .visible-pannel img{
     max-width: 2rem;
