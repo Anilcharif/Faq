@@ -66,7 +66,7 @@ header h1{
     display: flex;
     background-color: #fff;
     border-radius: 1rem;
-    color: #2b2a33;
+    color: #4c4b4e;
     justify-content: space-between;
     align-items: center;
     padding-top: 0.5rem;
@@ -76,6 +76,7 @@ header h1{
 .visible-pannel h2{
     margin-left: 2rem;
     font-size: 2.2rem;
+    color: #4c4b4e;
 }
 .visible-pannel img{
     max-width: 2rem;
@@ -96,11 +97,11 @@ header h1{
  
 }
 .toggle-on>h3{
-    font-size: 1.3rem;
+    font-size: 2rem;
 
 }
 .toggle-on>p{
-    font-size: 1.3rem;
+    font-size: 2rem;
     line-height: 1.8rem;
 }
 
