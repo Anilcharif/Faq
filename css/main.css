@@ -91,10 +91,12 @@ header h1{
     display: block;
     margin: 2rem;
     color: #f0f0f0;
-    transition: 0.2s all ease-in-out ;
+    transition: 0s all ease-in-out ;
+ 
 }
 .toggle-on>h3{
     font-size: 1.3rem;
+
 }
 .toggle-on>p{
     font-size: 1.3rem;
